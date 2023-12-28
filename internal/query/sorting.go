@@ -1,7 +1,7 @@
 package query
 
 import (
-	"sql/models"
+	"github.com/Metadiv-Technology-Limited/sql/models"
 
 	"gorm.io/gorm"
 )

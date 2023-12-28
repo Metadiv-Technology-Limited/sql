@@ -1,9 +1,9 @@
 package sql
 
 import (
-	"sql/internal/clause"
-	"sql/internal/query"
-	"sql/models"
+	"github.com/Metadiv-Technology-Limited/sql/internal/clause"
+	"github.com/Metadiv-Technology-Limited/sql/internal/query"
+	"github.com/Metadiv-Technology-Limited/sql/models"
 
 	"gorm.io/gorm"
 )

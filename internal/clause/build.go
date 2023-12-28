@@ -1,8 +1,9 @@
 package clause
 
 import (
-	"sql/models"
 	"strings"
+
+	"github.com/Metadiv-Technology-Limited/sql/models"
 
 	"gorm.io/gorm"
 )

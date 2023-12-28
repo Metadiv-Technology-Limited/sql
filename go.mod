@@ -1,4 +1,4 @@
-module sql
+module github.com/Metadiv-Technology-Limited/sql
 
 go 1.21.5
 
