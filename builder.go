@@ -1,8 +1,8 @@
 package sql
 
 import (
-	"sql/internal/clause"
-	"sql/models"
+	"github.com/Metadiv-Technology-Limited/sql/internal/clause"
+	"github.com/Metadiv-Technology-Limited/sql/models"
 )
 
 /*
