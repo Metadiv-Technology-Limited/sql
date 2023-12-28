@@ -11,3 +11,13 @@ func Paginate(page, size int) models.IPagination {
 		Size: size,
 	}
 }
+
+/*
+Sort creates a new models.ISorting.
+*/
+func Sort(by string, asc bool) models.ISorting {
+	return &models.Sorting{
+		By:  by,
+		Asc: asc,
+	}
+}
