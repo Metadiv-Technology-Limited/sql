@@ -12,7 +12,7 @@ type IPagination interface {
 type Pagination struct {
 	Page  int   `form:"page" json:"page"`
 	Size  int   `form:"size" json:"size"`
-	Total int64 `json:"total"` // this field is used in response, not in query
+	Total int64 `form:"-" json:"total"` // this field is used in response, not in query
 }
 
 func (p *Pagination) GetPage() int {
