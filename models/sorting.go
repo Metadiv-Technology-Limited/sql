@@ -8,8 +8,8 @@ type ISorting interface {
 }
 
 type Sorting struct {
-	By  string `form:"by"`
-	Asc bool   `form:"asc"`
+	By  string `form:"by" json:"by"`
+	Asc bool   `form:"asc" json:"asc"`
 }
 
 func (s *Sorting) GetBy() string {
